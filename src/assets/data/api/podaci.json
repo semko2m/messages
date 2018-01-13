@@ -1,0 +1,19 @@
+{
+  "messages": [
+    {
+      "text": "text from message1",
+      "expireDate": "13.01.2018",
+      "expireTime": 5
+    },
+    {
+      "text": "text from message2",
+      "expireDate": "13.01.2018",
+      "expireTime": 4
+    },
+    {
+      "text": "text from message2",
+      "expireDate": "13.01.2018",
+      "expireTime": 3
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<div class="container" *ngIf="available">
+  <div class="row">
+    <div class="col-md-12">
+      Today time : {{today}}
+      <table class="table table-responsive">
+        <th>Message</th>
+        <th>Expire for :</th>
+        <ng-container *ngFor="let message of messages; let i=index">
+          <tr *ngIf="showHide[i]">
+            <td>{{message.text}}</td>
+            <td>{{message.expireTime}}</td>
+          </tr>
+        </ng-container>
+      </table>
+    </div>
+  </div>
+</div>
